@@ -1,0 +1,131 @@
+/* General Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* App Title */
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #2196F3;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#addBtn {
+    background-color: #4CAF50; /* green */
+    color: white;
+}
+
+#addBtn:hover {
+    background-color: #45a049;
+}
+
+#saveBtn {
+    background-color: #2196F3; /* blue */
+    color: white;
+}
+
+#saveBtn:hover {
+    background-color: #1976d2;
+}
+
+/* Notes Container */
+#notesContainer {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Individual Note */
+.note {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.note h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.note p {
+    margin: 0 0 10px 0;
+    color: #555;
+}
+
+/* Note Buttons */
+.note button {
+    margin-right: 8px;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+/* Delete button */
+.note button:nth-child(3) {
+    background-color: #f44336; /* red */
+    color: white;
+}
+
+.note button:nth-child(3):hover {
+    background-color: #d32f2f;
+}
+
+/* Edit button */
+.note button:nth-child(4) {
+    background-color: #2196F3; /* blue */
+    color: white;
+}
+
+.note button:nth-child(4):hover {
+    background-color: #1976d2;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    form, #notesContainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
