@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-http://my-notes-app-12345.s3-website-us-east-1.amazonaws.com/
-=======
 # 📝 AWS Notes App (Serverless CRUD Application)
 
 Live Demo: 🌐 [http://my-notes-app-12345.s3-website-us-east-1.amazonaws.com/](http://my-notes-app-12345.s3-website-us-east-1.amazonaws.com/)
@@ -156,4 +153,3 @@ This allows the S3-hosted frontend to securely communicate with the API.
 This project demonstrates how to build a **real-world CRUD application** using AWS serverless services. It is ideal as a portfolio project or a foundation for more advanced applications.
 
 Happy building 🚀
->>>>>>> 0a5d883 (Updated README file)
